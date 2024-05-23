@@ -1,0 +1,38 @@
+.searchForm {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+
+.addNumberForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.addNumberForm div {
+  display: flex;
+  gap: 15px;
+}
+
+.numbersUl {
+  padding: 10px;
+  border: 1px solid black;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.numbersUl li {
+  display: flex;
+  gap: 20px;
+}
+.numberMainDiv {
+  display: flex;
+  justify-content: space-around;
+}

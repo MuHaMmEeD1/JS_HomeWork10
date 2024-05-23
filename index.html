@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <form class="searchForm">
+      <label for="search">Search</label>
+      <input name="search" class="searchInput" type="text" />
+    </form>
+
+    <div class="numberMainDiv">
+      <form class="addNumberForm">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="naem" class="addNameInput" />
+        </div>
+        <div>
+          <label for="surnaem">Surname</label>
+          <input type="text" name="surnaem" class="addSurnameInput" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" name="email" class="addEmailInput" />
+        </div>
+        <div>
+          <label for="number">Number</label>
+          <input type="text" name="number" class="addNumberInput" />
+        </div>
+        <div>
+          <button class="okButton">OK</button>
+          <button class="cancelButton">Cancel</button>
+        </div>
+      </form>
+      <ul class="numbersUl"></ul>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
